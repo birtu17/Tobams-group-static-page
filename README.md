@@ -10,12 +10,18 @@ pnpm dev
 # or
 bun dev
 ```
-## This is live URL [http://localhost:3000](http://localhost:3000).
+## This is live URL: https://tobams-group-static-page.netlify.app/about
+## Figma link: https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0 
+## Tech Stack
+ 1.Next.js
+ 2.Tailwind CSS
 
-## Deploy on Vercel
-.The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Changes & Improvements
 
-<!-- ==================================== -->
-npm install @heroicons/react
-i use account px-2 because 4 is not proportion as per available space.
-ommit px on nav bar because i use justify mx-auto
+The original fixed dimensions made it difficult to achieve responsiveness across different screen sizes, especially between small and large devices. In some cases, the fixed padding didn’t align well with the actual visible UI.
+
+To improve this, I mainly used justify-center and items-center to create a more flexible and balanced layout.
+
+For the three main sections, I applied a consistent style to the images. Since multiple border-radius values were used before, I selected the ones that worked best and standardized them across all sections for a cleaner and more cohesive design.
+
+## Use AI for help not generate the whole.
